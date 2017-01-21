@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.2.3
+ENV VERSION=0.0.2.56
 
 RUN gem install athena --version ${VERSION} --no-format-exec
 
